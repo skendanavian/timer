@@ -8,9 +8,9 @@ for (let time of args) {
   if (time >= 0 || Number.isNaN(time)) {
     setTimeout(() => {
       beep();
-    }, time * 1000)
+    }, time * 1000);
   }
-}
+};
 
 const beep = function() {
   //beep won't work on my OS 
