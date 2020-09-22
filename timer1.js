@@ -20,5 +20,4 @@ const beep = function() {
   process.stdout.write('. BEEP . \n');
 }
 
-console.log(typeof Number(args[0]))
 
